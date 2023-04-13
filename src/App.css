@@ -1,0 +1,57 @@
+.navbar-dark {
+  background-color:#373b3e
+}
+body {
+  background: #000;
+}
+.card {
+  border: none;
+  height: 320px;
+}
+.forms-inputs {
+  position: relative;
+
+}
+.forms-inputs span {
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.forms-inputs input {
+  height: 50px;
+  border: 2px solid #eee;
+  width: 328px;
+}
+.forms-inputs input:focus {
+  box-shadow: none;
+  outline: none;
+  border: 2px solid #000000;
+}
+.btn {
+  height: 50px;
+}
+.success-data {
+  display: flex;
+  flex-direction: column;
+}
+.bxs-badge-check {
+  font-size: 90px;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* .accepted{
+  margin-left: 177px; 
+} */
+
+.expirycard{
+  background-color: #adf5b2;
+}
